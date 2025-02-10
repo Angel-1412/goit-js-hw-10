@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <script type="module" crossorigin src="/vanilla-app-template/2-snackbar.js"></script>
+  <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/styles-CzAj7WY_.js">
+  <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-BbbuE1sJ.js">
+  <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/styles-DFID2eL0.css">
+  <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/vendor-CZjNVMTf.css">
+</head>
+
+<body class="snackbar">
+  <p><a href="./index.html" class="back">Go back</a></p>
+  <form class="form">
+    <label class="label">
+      Delay (ms)
+      <input class="state" type="number" name="delay" required />
+    </label>
+    <fieldset class="fieldset">
+      <legend class="lgn">State</legend>
+      <label class="label">
+        <input class="state" type="radio" name="state" value="fulfilled" required />
+        Fulfilled
+      </label>
+      <label class="label">
+        <input class="state" type="radio" name="state" value="rejected" required />
+        Rejected
+      </label>
+    </fieldset>
+  
+    <button class="btn" type="submit">Create notification</button>
+  </form>
+</body>
+
+</html>
